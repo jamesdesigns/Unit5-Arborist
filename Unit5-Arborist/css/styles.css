@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #006600;
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width:1024px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-left: 2%;
+	color: #606060;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 295%;
+}
+
+h2 {
+	font-size:120%;
+	color:#009933;
+}
+
+p {
+	margin-left: 2%;
+}
+
+hr {
+	border: 1px dotted #ccc;
+}
+
+header {
+	height: 213px;
+	background-image: url("../arborist-BG.jpg");
+	background-repeat: no-repeat;
+}
+
+button {
+    margin-left: 2%;
+    margin-bottom: .5%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #d0d0e1;
+}
+
+
+.guess {
+	font-size: 190%;
+	font-weight: 500;
+	color:#000;
+}
+
+#company {
+	color:#fff;
+	text-shadow: 3px 3px #000;
+	margin-top: -7px;
+	padding-top: 10px;
+}
+
+#slogan {
+	color:#ccc;
+	text-shadow: 2px 2px #000;
+	margin-top:-30px;
+}
+
+#treelist {
+    display: block;
+    width: 50%;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 2%;
+    float: right;
+}
+
+#displayList {
+	background-color: #ccc;
+	margin-right:2%;
+}
+
+#message{
+	background-color: #ffff00;
+	margin-right:2%;
+}
+
+#displayTrees {
+	color:#000;
+}
+
+
+#amountOfTrees {
+	color: red;
+	margin-right:2%;
+}
+
+#showName3 {
+	color: #000;
+}
+
+ul {
+    list-style-type: circle;
+    color:#6d3c37;
+}
+
+footer {
+	background-color: #1a0d00;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 85%;
+	height: 100px;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 15px;
+}
